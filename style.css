@@ -1,31 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-}
-.container .card{
-    padding: 25px 25px;
-    width: 35vw;
+.card{
     background-color: #ffffff;
     border-radius: 10px;
-}
-.card h2{
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight:800;
 }
 .card input{
     border: 2px solid #a53860;
     border-radius: 10px;
-    outline: 0;
-    margin: 10px 0 20px;
+   
 }
 .card button{
     border: none;
@@ -39,16 +25,9 @@
 }
 
 #Imgbox{
-    border-radius: 5px;
-    overflow: hidden;
     transition: max-height 1s;
 }
 
-#Imgbox.show-img{
-    max-height: 300px;
-    margin: 10px auto;
-    border: 1px solid #403d39;
-}
 .error{
     animation: shake 0.1s linear 10;
 }
